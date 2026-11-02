@@ -69,5 +69,10 @@
   <dialog id="cropDialog" class="modal"><form id="cropForm" method="dialog"><div class="modal-heading"><div><span class="section-kicker">FIELD RECORDS</span><h2>Add a crop</h2></div><button class="icon-button" type="button" id="closeCropDialog" aria-label="Close">✕</button></div><label>Crop / variety<input id="newCropName" required maxlength="60" placeholder="e.g. Cherry tomatoes"></label><div class="form-row"><label>Field name<input id="newCropField" required maxlength="60" placeholder="e.g. North field"></label><label>Area (hectares)<input id="newCropArea" type="number" min="0.01" max="100000" step="0.01" required placeholder="e.g. 2.5"></label></div><label>Planting date<input id="newCropDate" type="date" required></label><label>Health status<select id="newCropHealth"><option>Healthy</option><option>Monitor</option><option>Needs attention</option></select></label><div class="modal-actions"><button class="button button-secondary" type="button" id="cancelCrop">Cancel</button><button class="button button-primary" type="submit">Save crop</button></div></form></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="static/app.js"></script>
+  <!-- Connect CSS -->
+  <link rel="stylesheet" href="static/styles.css">
+
+<!-- Connect JavaScript -->
+  <script src="static/app.js"></script>
 </body>
 </html>
